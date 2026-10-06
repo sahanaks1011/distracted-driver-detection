@@ -36,7 +36,14 @@ c5 radio, c6 drinking, c7 reaching behind, c8 hair and makeup, c9 talking to pas
 
 Validation accuracy (%). Filled in from `results/summary.md` after running.
 
-<!-- paste results/summary.md here -->
+| Model | Paper val % | Random train % | Random val % | Driver train % | Driver val % |
+|---|---|---|---|---|---|
+| Naive Bayes | 54.99 | 55.92 | 54.49 | 56.06 | 27.56 |
+| Decision Tree | 84.73 | 100.00 | 89.25 | 100.00 | 22.60 |
+| Linear SVM | 71.39 | 98.36 | 97.70 | 92.09 | 36.86 |
+| Softmax | 82.31 | 85.24 | 84.01 | 73.17 | 30.47 |
+| Two-layer Net | 92.24 | 99.96 | 99.35 | 98.37 | 35.28 |
+| ResNet-18 (extension) | - | 99.99 | 99.78 | 99.98 | 91.46 |
 
 Figures: `results/figures/` (accuracy comparison, confusion matrices, learning curves, demo grids).
 Write-up: `results/Team7_Writeup_Distracted_Driver_Detection.pdf`.
